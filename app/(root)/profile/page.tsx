@@ -26,7 +26,7 @@ const ProfilePage = async () => {
            </div>
        </section>
        <section className='wrapper my-8'>
-        <Collection
+        {/* <Collection
             data={""}
             emptyTitle="No Event Tickets purchased yet"
             emptyStateSubtext="No worries - plenty of exciting events to explore"
@@ -35,7 +35,7 @@ const ProfilePage = async () => {
             page={1}
             urlParamName='ordersPage'
             totalPages={2}
-            />
+            /> */}
        </section>
        {/* Event Organized */}
        <section className='bg-primary-50 bg-dotted-pattern 
